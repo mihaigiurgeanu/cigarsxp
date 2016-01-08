@@ -6,7 +6,7 @@ header-img: "img/contact-bg.jpg"
 ---
 
 <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
-<form name="sentMessage" id="contactForm" novalidate action="https://fwdform.herokuapp.com/user/643cad82-300c-49f2-aa10-d0853dc68385" method="post">
+<form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/mihai.giurgeanu@gmail.com" method="post">
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
@@ -43,5 +43,5 @@ header-img: "img/contact-bg.jpg"
         </div>
     </div>
 
-    <input type="hidden" name="next" value="{{ site.url }}{{ site.baseurl }}/message_sent.html" />
+    <input type="hidden" name="_next" value="{{ site.url }}{{ site.baseurl }}/message_sent.html" />
 </form>
